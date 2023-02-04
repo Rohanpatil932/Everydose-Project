@@ -1,0 +1,74 @@
+/* header patr css */
+.card-header {
+    background-color: #ffffff;
+    border: none;
+    margin-right: 3rem;
+}
+.header {
+    text-align: initial; 
+    margin-top: 20px;
+    margin-left: 7%;
+}
+.list-heading{
+    background-color: #f2f2f2;
+    padding: 2%
+    }
+.items{
+    width: 75%;
+    height: 30%;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f2f2f2;
+    border-color: #7474;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+/* All the buttons mentioned */
+.btn.btn-primary.btn-additon{
+    border-radius: 0px 5px 5px 0px;
+    margin-bottom: 5px;
+    width: 5rem;
+}
+.btn-clear{
+    width: 9rem;
+    height: 3rem;
+    border-radius: 6px;
+    position: relative;
+    left: 70%;
+    background-color: #ffffff;
+}
+.btn-clear:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Disclosure after input field */
+.disclosure{
+    text-align: left;
+    font-size: 13px;
+    margin-left: 7%;
+    color: #747474;
+}
+
+/* List Part CSS */
+.list-body{
+    margin: 20px;
+    margin-left: 43px;
+    margin-right: 5.5rem;
+    text-align: start;
+}
+
+.list-style{
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7474;
+    
+}
+.list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ol{
+    padding-left: 1px;
+}
